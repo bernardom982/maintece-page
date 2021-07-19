@@ -1,0 +1,56 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/c0098fccea.js"></script>
+    <title>Bernardo Araújo - Desenvolvimento</title>
+    <link rel="stylesheet" href="../Portfolio/style.css">
+</head>
+<body>
+            <!--Site feito por Bernardo Marques-->
+            <!--github.com/bernardom982-->
+    <div class="container">
+        <!--Banner-->
+        <div class="banner">
+        <img src="../Portfolio/img/background.jpg" alt="background" id="background">
+        <div class="content">
+          <img src="../Portfolio/img/web-design-1.png" alt="webdeveloper" class="sideimage">
+          
+          <h2 id="header-name"></h2>
+          <div style="font-size: 50px;">
+            <i class="fab fa-discord"></i>
+          </div>
+
+          <p>Site em desenvolvimento</p>
+          <br>
+          <div id="buttons">
+            <a href="https://github.com/bernardom982"><img src="../Portfolio/img/github.svg" alt="github" id="button-ref"></a>
+            <a href="https://github.com/bernardom982"><img src="../Portfolio/img/twitter.svg" alt="twitter" id="button-ref"></a>
+            <a href="https://twitter.com/bernardom982"><img src="../Portfolio/img/instagram.svg" alt="instagram" id="button-ref"></a>
+            <a href="https://api.whatsapp.com/send?phone=5581988998374"><img src="../Portfolio/img/whatsapp.svg" alt="whatsapp" id="button-ref"></a>
+          </div>
+        </div>
+        </div>
+
+    <script>
+        const text = 
+        document.getElementById('header-name');
+        const prog = 'Bernardo Araújo';
+        let idx = 1;
+
+        setInterval(writeText, 200);
+        function writeText(){
+        text.innerText = prog.slice(0, idx);
+        idx ++;
+        if (idx > prog.length) {
+        idx=1;
+        }
+      }
+    </script>
+            <!--Site feito por Bernardo Marques-->
+            <!--github.com/bernardom982-->
+
+
+
+</body>
+</html>

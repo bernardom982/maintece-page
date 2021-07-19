@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/*Root and * */
+
+:root{
+    --white-color: white;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*Banner*/
+
+.container .banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #091dcc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .banner #background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.25;
+}
+
+.container .banner .content{
+    position: relative;
+    max-width: 750px;
+    text-align: center;
+}
+
+.container .banner .content #header-name{
+    color: var(--white-color);
+    font-size: 3.4rem;
+    z-index: 1;
+}
+
+.container .banner .content p{
+    color: var(--white-color);
+    font-size: 1.5rem;
+    font-weight: 650;
+}
+
+.sideimage{
+    width: 85%;
+}
+
+#buttons{
+    width: 230px;
+    height: 80px;
+    background: white;
+    display: inline-block;
+    border-radius: 50px;
+    
+}
+
+#button-ref{
+    cursor: pointer;
+    position: relative;
+    margin-top: 1.0rem;
+    width: 50px;
+    height: 50px;
+}
+
